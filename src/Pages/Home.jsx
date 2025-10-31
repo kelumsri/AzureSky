@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useMemo, useState } from "react";
 import { useAuth0 } from "@auth0/auth0-react";
 import Lnading from "./Lnading";
 import Navigation from "@/components/ui/Navigation";
-import Weathercard from "@/components/ui/weathercard";
+import Weathercard from "@/components/ui/Weathercard";
 import { getWeatherData } from "@/services/weatherService";
 import citiesJson from "@/assets/cities.json";
 function Home() {
